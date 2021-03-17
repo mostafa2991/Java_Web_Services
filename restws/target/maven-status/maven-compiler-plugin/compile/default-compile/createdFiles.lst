@@ -1,0 +1,5 @@
+com\MElHagez\trainings\jaxrs\Prescription.class
+com\MElHagez\trainings\jaxrs\PatientServiceImpl.class
+com\MElHagez\trainings\jaxrs\Patient.class
+com\MElHagez\trainings\jaxrs\Medicine.class
+com\MElHagez\trainings\jaxrs\PatientService.class
