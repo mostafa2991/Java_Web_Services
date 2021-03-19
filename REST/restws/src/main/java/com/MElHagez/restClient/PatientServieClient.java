@@ -28,6 +28,7 @@ public class PatientServieClient {
 		WebTarget target = client.target(PATIENT_SERVICE_URL).path("/patients").
 				                                              path("/{id}").resolveTemplate("id", 123);
 //		Response patient = target.request().get();
+//		add new 
 		Patient patient = target.request().get(Patient.class);
 		System.out.println(patient.getName());
 	}
