@@ -17,7 +17,7 @@
               </jaxrs:server>
               
 <bean id="serviceBean"
-      class="com.MElHagez.trainings.jaxrs.PatientServiceImpl"></bean>
+      class="com.MElHagez.jaxrs.PatientServiceImpl"></bean>
       
 <bean id="jacksonProvider"
       class="org.codehaus.jackson.jaxrs.JacksonJsonProvider"></bean>
